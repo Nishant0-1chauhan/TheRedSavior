@@ -1,0 +1,293 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../log1.jpg);
+height: 200vh;
+margin-top: 20px
+background-size: cover;
+background-position: center; 
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top:  3.5%;
+}
+
+ul li{
+	display: inline-block;
+	position: relative;
+}
+
+ul li::before{
+	content: '' ;
+	position: absolute;
+	top: -15%;
+	width: 0%;
+	background-color: #fff;
+	z-index: 999;
+	height: 3px;
+	transition: 0.5s all;
+}
+
+ul li:hover::before{
+	width: 100%;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 15px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #000;
+	color: #fff;
+	text-decoration: blink;
+}
+
+ul li.active a{
+	background-color: #000;
+	color: #fff;
+
+}
+
+.logo img{
+	float: left;
+	width: 65px;
+	height: auto;
+	margin-top: 2.5%;
+	margin-left: 1px;
+	border-radius: 90px;
+	box-shadow: 0 10px 16px rgba(0,0,0,.5);
+
+
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	margin-top: 4%;
+	margin-left: 20%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #000;
+	font-size: 20Px;
+}
+
+.loginbox{
+	width: 500px;
+	height: 480px;
+	background: #fff;
+	color: #000;
+	top: 72%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	box-shadow: 0 15px 20px rgba(0,0,0,.5);
+	border-radius: 20px;
+	
+		
+}
+
+.logo2{
+	width: 150px;
+	height: 150px;
+	border-radius: 40%;
+	position: absolute;
+	top: -85px;
+	left: calc(50% - 80px);
+}
+
+.loginbox h2{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 25px;
+	color:#696969;
+}
+
+.loginbox p{
+	margin-top: 20px;
+	padding: 0;
+	font-weight: bold;
+	font-size: 20px;
+	color: #696969;
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 15px;
+	
+	
+
+}
+
+.loginbox input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font: 16px;
+
+}
+
+.loginbox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 39px;
+	margin-top: 11px;
+
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 30px;
+	color: darkgrey;
+}
+
+.loginbox a:hover{
+	color: #ffc107;
+}
+
+
+
+.registerbox{
+	width: 320px;
+	height: 380.9px;
+	background: #e9ebee;
+	color: #000;
+	top: 58.4%;
+	left: 13.9%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: box;
+	padding: 70px 30px;
+	box-shadow: 0 15px 20px rgba(0,0,0,.5);
+	border-radius: 0px;
+	overflow-y: scroll; 
+
+ 
+}
+
+.registerbox h2{
+	margin-top: -15%;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+
+}
+
+.registerbox p{
+	margin:0;
+	padding: 0;
+	font-weight: bold;
+	margin-top: 27px; 
+	margin-bottom: 1%;
+	color: #696969;
+
+}
+
+
+.registerbox input{
+	width: 100%;
+	margin-bottom: 22px
+}
+
+.registerbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font: 16px;
+
+}
+.registerbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 39px;
+	margin-top: 15%;
+
+}
+
+.registerbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+
+}
+
+.line{
+	margin-top: -27%;
+	height: 18%; 
+	width: 114%;
+	margin-left: -15px;
+
+}
+.im1 {
+    height: 520.9px;
+	width: 897px;
+	margin-top: 0px;
+	margin-left:29%;
+	
+}
+
+
+
+
+
+
+
+

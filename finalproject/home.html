@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>SEARCH BLOOD DONOR ONLINE & BECOME DONOR | BLOOD SHARE CYCLE</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js?key="></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+
+		<style >
+			#map{
+				height: 400px;
+				width:70%;
+			  left: 30%;
+			  
+
+			}
+		</style>
+	</head>
+<body>
+
+  
+	<header>
+
+		<div class="main">
+			<div class="logo">
+				 <a href="home.html"><img src="blood1.png"title="Home"></a>
+
+			</div>
+			<ul>
+				<li><a href="logi&sign/login.html">Login</a></li>
+				<li class="active"><a href="home.html">Home</a></li>
+				<li><a href="contant/services.html">Services</a></li>
+				<li><a href="contant/gallery.html">Gallery</a></li>
+				<li><a href="contant/about.html">About us</a></li>
+				<li><a href="contant/contact.html">Contact</a></li>
+				<li><a href="contant/help.html">Help</a></li>
+
+			</ul>
+	
+	
+
+		</div>
+		<div class="title">
+			<h1>INDIA BLOOD SHARE CYCLE</h1>
+		</div>
+
+	<hr color="#999999"width="98%"size="28%"/>
+	<hr color="#000"width="100%"size="4%"/>  
+
+		<div id="map"></div>
+
+	<script>
+		function initMap() {
+			var location = {lat: 20.593683, lng: 78.962883};
+			var  map = new google.maps.Map(document.getElementById("map"), {
+				zoom: 4,
+				center: location
+			});
+			var marker = new google.maps.Marker({
+				position: location,
+				map: map
+			});
+
+		}
+	</script>
+	   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1dB-JsabYD9GMPB_6f6pzervQmhahT2Y&callback=initMap"> </script>
+	
+<div class="zipbox">
+ 	<h2>Find Doner</h2>
+ 	<form>
+ 	<input type="text" name="" placeholder="Zip or City"> 
+
+	
+	<input type="submit" name="" value="submit"><br>
+	
+	<a href="logi&sign/singin.html">Create an account >></a>
+
+	</form>
+</select>
+ 
+</div>
+		
+	</header>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "blooddonor",
+    "slug": "bloodonor",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "sdkVersion": "26.0.0"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.bloodsite.blooddonor",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBc90uKoAYSN0dPdkXjbAOLrXdQKW2QLO4"
+        }
+      }
+    },
+    "description": "Application to register as a donor in https://theredsavior.in\n"
+  }
+}
